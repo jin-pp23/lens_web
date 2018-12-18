@@ -1,0 +1,28 @@
+[debug] [2018-12-18T05:38:05.905Z] ----------------------------------------------------------------------
+[debug] [2018-12-18T05:38:05.905Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-12-18T05:38:05.905Z] CLI Version:   4.2.1
+[debug] [2018-12-18T05:38:05.905Z] Platform:      win32
+[debug] [2018-12-18T05:38:05.905Z] Node Version:  v8.12.0
+[debug] [2018-12-18T05:38:05.905Z] Time:          Tue Dec 18 2018 14:38:05 GMT+0900 (대한민국 표준시)
+[debug] [2018-12-18T05:38:05.905Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-18T05:38:05.939Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-18T05:38:05.939Z] > authorizing via signed-in user
+[debug] [2018-12-18T05:38:05.939Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-18T05:38:05.939Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-12-18T05:38:06.306Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-18T05:38:06.306Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/lens-pp23  
+ 
+[debug] [2018-12-18T05:38:07.228Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-18T05:38:07.232Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/lens-pp23  
+ 
+[debug] [2018-12-18T05:38:08.503Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\포폴_js\ex06 렌즈'...
+[info] 
+[debug] [2018-12-18T05:38:08.522Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/579836891776/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-18T05:38:09.316Z] <<< HTTP RESPONSE 200
+[info] i  hosting[lens-pp23]: Serving hosting files from: public
+[info] +  hosting[lens-pp23]: Local server: http://localhost:5000
